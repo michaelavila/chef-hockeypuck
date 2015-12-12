@@ -1,27 +1,19 @@
 # hockeypuck-cookbook
 
-TODO: Enter the cookbook description here.
+A [chef](chef.io) cookbook used to install and configure the hkp server
+[hockeypuck](hockeypuck.github.io).
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+- Ubuntu 14.04
 
 ## Attributes
 
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['hockeypuck']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+| Key | Type | Description | Default |
+| --- | --- | --- | --- |
+| `['hockeypuck']['user']` | string | which user will run hockeypuck | n/a |
+| `['hockeypuck']['group']` | string | which group will run hockeypuck | n/a |
+| `['hockeypuck']['working_dir']` | string | which directory to run hockeypuck | n/a |
 
 ## Usage
 
@@ -36,7 +28,3 @@ Include `hockeypuck` in your node's `run_list`:
   ]
 }
 ```
-
-## License and Authors
-
-Author:: YOUR_NAME (<me@michaelavila.com>)
