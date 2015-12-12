@@ -1,0 +1,7 @@
+name             'hockeypuck'
+maintainer       'YOUR_NAME'
+maintainer_email 'me@michaelavila.com'
+license          'All rights reserved'
+description      'Installs/Configures hockeypuck'
+long_description 'Installs/Configures hockeypuck'
+version          '0.1.0'
