@@ -1,7 +1,7 @@
 name             'hockeypuck'
 maintainer       'Michael Avila'
 maintainer_email 'me@michaelavila.com'
-license          ''
+license          'GNU Affero General Public License'
 description      'Installs/Configures hockeypuck'
 long_description 'Installs/Configures hockeypuck'
 version          '0.1.1'
