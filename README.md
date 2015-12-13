@@ -9,11 +9,11 @@ A [chef](chef.io) cookbook used to install and configure the hkp server
 
 ## Attributes
 
-| Key | Type | Description | Default |
-| --- | --- | --- | --- |
-| `['hockeypuck']['user']` | string | which user will run hockeypuck | n/a |
-| `['hockeypuck']['group']` | string | which group will run hockeypuck | n/a |
-| `['hockeypuck']['working_dir']` | string | which directory to run hockeypuck | n/a |
+| Key | Type | Description |
+| --- | --- | --- |
+| `['hockeypuck']['user']` | string | which user will run hockeypuck |
+| `['hockeypuck']['group']` | string | which group will run hockeypuck |
+| `['hockeypuck']['working_dir']` | string | which directory to run hockeypuck |
 
 ## Usage
 
