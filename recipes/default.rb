@@ -31,8 +31,10 @@ directory '/var/log/hockeypuck' do
   group node['hockeypuck']['group']
 end
 
-execute 'hockeypuck -config /etc/hockeypuck/hockeypuck.conf &' do
-  cwd   node['hockeypuck']['working_dir']
-  user  node['hockeypuck']['user']
-  group node['hockeypuck']['group']
+poise_service_user node['hockeypuck']['user']
+
+poise_service 'hockeypuck' do
+  user node['hockeypuck']['user']
+  directory node['hockeypuck']['working_dir']
+  command 'hockeypuck -config /etc/hockeypuck/hockeypuck.conf'
 end

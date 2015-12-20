@@ -7,3 +7,4 @@ long_description 'Installs/Configures hockeypuck'
 version          '0.1.3'
 
 depends 'apt'
+depends 'poise-service'
