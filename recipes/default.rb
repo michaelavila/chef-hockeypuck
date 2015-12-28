@@ -38,3 +38,5 @@ poise_service 'hockeypuck' do
   directory node['hockeypuck']['working_dir']
   command 'hockeypuck -config /etc/hockeypuck/hockeypuck.conf'
 end
+
+include_recipe 'hockeypuck::stop'
